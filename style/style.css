@@ -1,0 +1,503 @@
+html, body {
+    margin: 0;
+	padding: 0;
+	height: 100%;
+    background: #111111;
+}
+
+header {
+    margin: 50px;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+h1, h2, h3, h4, h5, h6,  p {
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    width: 100%;
+}
+
+nav div {
+    display: flex;
+    max-width: 350px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav .div-img {
+    display: flex;
+    justify-content: start;
+}
+
+nav div a {
+    display: flex;
+    width: 100%;
+    max-width: 150px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.get-notified {
+    display: flex;
+    color: #DF00A1;
+    font-weight: 900;
+}
+
+.get-notifiedT2 {
+    display: flex;
+    justify-content: center;
+    color: #DF00A1;
+    box-sizing: border-box;
+    border: 1px solid #DF00A1;
+    border-radius: 5px;
+}
+
+.seta-rosa {
+    display: flex;
+    width: 100%;
+    max-width: 11px;
+    margin-left: 15px;
+}
+
+.information p {
+    color:#DF00A1;
+    margin-bottom: 35px;
+}
+
+#container-initial {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    height: 796px;
+    justify-content: space-between;
+}
+
+.information h2 {
+    font-size: 65px;
+    max-width: 380px;
+    text-shadow: #3EFFB9 2px 3px 2px;
+}
+
+.get-notifiedT3 {
+    display: flex;
+    background-color: #DF00A1;
+    margin-top: 50px;
+    box-sizing: border-box;
+    border: 5px solid #DF00A1;
+    border-radius: 5px;
+    max-width: 125px;
+}
+
+.seta-preta {
+    display: flex;
+    width: 100%;
+    max-width: 15px;
+    margin-left: 15px;
+}
+
+.updates {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    max-width: 225px;
+}
+
+.updates div::before {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 192px;
+    margin-bottom: 50px;
+}
+
+.updates div {
+    max-width: 192px;
+    width: 100%;
+    margin-right: 30px;
+}
+
+.updates div h4 {
+    margin-top: 15px;
+}
+
+.container-img {
+    background: radial-gradient(circle, rgba(223,0,161,1) 0%, rgba(17,17,17,1) 40%);
+    max-width: 700px;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.container-img {
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.icon-app {
+    position: absolute;
+    left: 80px;
+}
+
+#container-newsitem {
+    max-width: 1400px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    background: #333333;
+    justify-content: center;
+    height: 250px;
+}
+
+#container-newsitem div {
+    display: flex;
+    align-items: center;
+}
+
+#container-newsitem .newsitem {
+    width: 100%;
+    max-width: 498px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 50px;
+    height: 150px;
+    border-left: 2px solid #555555;
+}
+
+#container-newsitem .newsitem .itens {
+    display: flex;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+#container-newsitem .newsitem p {
+    color: #CCCCCC;
+}
+
+#container-brands {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#container-brands div {
+    display: flex;
+    margin: 50px 0px 50px 0px;
+    justify-content: space-between;
+}
+
+#container-ceo {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-ceo div {
+    background-color: #AAAAAA;
+    display: flex;
+    justify-content: center;
+}
+
+#container-ceo .ceo-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 500px;
+    width: 100%;
+}
+
+#container-ceo .ceo-description h3 {
+    font-size: 70px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-ceo .ceo-description .more-description {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-ceo .ceo-description .quote {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #555555;
+}
+
+#container-ceo .ceo-description .quote-space {
+    margin-left: 25px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-ceo .ceo-description .quote p{
+    margin-top: 10px;
+}
+
+#container-aboutcompany {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-aboutcompany div {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+#container-aboutcompany .aboutcompany {
+    display: flex;
+    flex-direction: column;
+    max-width: 325px;
+    width: 100%;
+}
+
+#container-aboutcompany .aboutcompany::before {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 325px;
+    margin-bottom: 50px;
+}
+
+#container-aboutcompany .aboutcompany .itens-about {
+    margin-top: 20px;
+}
+
+#container-aboutcompany .aboutcompany h4 {
+    font-size: 19px;
+}
+
+#container-cryptoinvestiment {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-cryptoinvestiment div {
+    background-color: #3EFFB9;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#container-cryptoinvestiment::after {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 2px;
+    width: 1400px;
+    margin-top: 100px;
+}
+
+#container-cryptoinvestiment .investiment-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-width: 500px;
+    width: 100%;
+}
+
+#container-cryptoinvestiment .investiment-description h3 {
+    font-size: 70px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .more-description {
+    font-size: 16px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .quote {
+    display: flex;
+    flex-direction: column;
+    border-left: 3px solid #555555;
+}
+
+#container-cryptoinvestiment .investiment-description .quote-space {
+    margin-left: 25px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#container-cryptoinvestiment .investiment-description .quote p{
+    margin-top: 10px;
+}
+
+#container-images {
+    max-width: 1400px;
+    width: 100%;
+    margin: auto;
+}
+
+#container-images > div {
+    margin: 100px 0px 100px 0px;
+}
+
+#container-images > div::after {
+    background: #ffffff;
+    content:"";
+    display: inline-block;
+    height: 1px;
+    width: 1400px;
+    margin-top: 100px;
+}
+
+#container-images div .div-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#container-images div .div-top .div-top-left {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#container-images div .div-top .div-top-left .pair {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+#container-images div .div-top .div-top-left .pair .rectangle21 {
+    margin-bottom: 30px
+}
+
+#container-images div .div-top .div-top-right {
+    display: flex;
+    max-width: 700px;
+    width: 100%;
+    justify-content: end;
+}
+
+#container-images div .div-top .div-top-right > div {
+    max-width: 245px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container-images div .div-top .div-top-right .div-p {
+    margin-top: 50px;
+    border-left: 2px solid #ffffff;
+}
+
+#container-images div .div-top .div-top-right .div-p p {
+    margin-left: 40px;
+    max-width: 205px;
+}
+
+#container-images .div-bottom {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+#container-images .div-bottom > div {
+    max-width: 700px;
+}
+
+#container-images .div-bottom .div-bottom-left {
+    background-color: #DF00A1;
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    width: 100%;
+    height: 388px;
+}
+
+#container-images .div-bottom .div-bottom-left .div-dad-imgandp {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+}
+
+#container-images .div-bottom .div-bottom-left .div-p {
+    display: flex;
+    margin-top: 50px;
+    border-left: 2px solid #000000;
+}
+
+#container-images .div-bottom .div-bottom-left .div-p p {
+    color:#000000;
+    font-weight: bold;
+    margin-left: 35px;
+}
+
+#container-images .div-bottom .div-bottom-right {
+    display: flex;
+    flex-direction: column;
+    max-width: 640px;
+    width: 100%;
+    align-items: end;
+    justify-content: space-between;
+}
+
+#container-images .div-bottom .div-bottom-right .pair {
+    display: flex;
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#container-app {
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+}
+
+#container-app > div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff;
+}
+
+#container-app .information {
+    height: 400px;
+    margin-top: 50px;
+}
+
+#container-app .container-img {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    background-position: 0px 200px;
+    background-repeat: no-repeat;
+}
+
+#container-app .container-img .img-phone {
+    display:block;
+}
