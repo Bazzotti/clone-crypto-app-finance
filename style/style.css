@@ -10,12 +10,16 @@ header {
 }
 
 main {
-    padding-bottom: 100px;
+    padding: 0 20px 100px 20px;
 }
 
 h1, h2, h3, h4, h5, h6,  p {
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+}
+
+img {
+    max-width:100%;
 }
 
 nav {
@@ -126,7 +130,7 @@ nav div a {
     content:"";
     display: inline-block;
     height: 2px;
-    width: 192px;
+    max-width: 192px;
     margin-bottom: 50px;
 }
 
@@ -310,8 +314,9 @@ nav div a {
     content:"";
     display: inline-block;
     height: 2px;
-    width: 1400px;
+    max-width: 1400px;
     margin-top: 100px;
+    width: 100%;
 }
 
 #container-cryptoinvestiment .investiment-description {
@@ -365,7 +370,8 @@ nav div a {
     content:"";
     display: inline-block;
     height: 1px;
-    width: 1400px;
+    width: 100%;
+    max-width: 1400px;
     margin-top: 100px;
 }
 
@@ -500,4 +506,10 @@ nav div a {
 
 #container-app .container-img .img-phone {
     display:block;
+}
+
+@media (max-width: 1024px) {
+    header .get-notifiedT2 {
+        display: none;
+    }
 }
