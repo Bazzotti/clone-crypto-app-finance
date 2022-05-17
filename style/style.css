@@ -553,6 +553,7 @@ footer .div-info .copyright {
     justify-content: space-between;
     margin-top: 100px;
 }
+
 @media (max-width: 1024px) {
     header .get-notifiedT2 {
         display: none;
