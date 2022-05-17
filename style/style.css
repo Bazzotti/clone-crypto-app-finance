@@ -508,6 +508,51 @@ nav div a {
     display:block;
 }
 
+footer .div-info {
+    margin: auto;
+    display: flex;
+    max-width: 1400px;
+    width: 100%;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+footer .div-info .info-contact {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .div-info .info-contact .icon-social {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .div-info .info-contact .icon-social p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+footer .div-info .info-contact .div-contacts {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+footer .div-info .info-contact .div-contacts h5{
+    margin-bottom: 20px;
+}
+
+footer .div-info .info-contact .div-contacts p {
+    margin-bottom: 10px;
+}
+
+footer .div-info .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
 @media (max-width: 1024px) {
     header .get-notifiedT2 {
         display: none;
